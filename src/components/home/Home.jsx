@@ -28,13 +28,13 @@ const Home = () => {
             className="nav-link"
             href="https://www.linkedin.com/in/matias-garay-gadea-b789b519a/"
           >
-            <LinkedInIcon />
+            <LinkedInIcon style={{ fontSize: 30 }}  />
           </a>
         </li>
 
         <li className="nav-item">
           <a className="nav-link" href="https://github.com/Mggadea">
-            <GitHubIcon />
+            <GitHubIcon  style={{ fontSize: 30 }} />
           </a>
         </li>
       </div>

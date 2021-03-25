@@ -36,18 +36,19 @@
   border: green;
   box-shadow: 5px 5px 1px black;
 }
-.home__social{
+.home__social {
   position: absolute;
   bottom: 20px;
   right: 30px;
-  
 }
 
-.nav-item{
-  list-style:none;
+.nav-item {
+  list-style: none;
 }
 
-.nav-link{
-  color: white !important;
-  font-size: 40px !important;
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: #08fdd8;
 }
