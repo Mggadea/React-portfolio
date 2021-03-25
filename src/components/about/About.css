@@ -1,0 +1,14 @@
+.about {
+  height: 100vh;
+}
+.about-title {
+  padding-top: 50px;
+  color: #08fdd8;
+  font-size: 50px;
+}
+
+.about-text {
+  padding-top: 50px;
+  font-size: 25px;
+}
+

@@ -1,0 +1,13 @@
+.projects {
+  height: 100vh;
+}
+.projects-title {
+  padding-top: 50px;
+  color: #08fdd8;
+  font-size: 50px;
+}
+
+.projects-img {
+  height: 20px !important;
+  }
+  
