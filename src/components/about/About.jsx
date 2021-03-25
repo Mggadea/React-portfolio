@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
+import Grid from "@material-ui/core/Grid";
 import "./About.css";
 
 const About = () => {
@@ -15,7 +16,9 @@ const About = () => {
           and new technologies to improve collaboration between business,
           development, and operations and create an agile application lifecycle.{" "}
         </p>
+        <h1 className="about-title">Skills.</h1>
       </div>
+     
     </Container>
   );
 };
