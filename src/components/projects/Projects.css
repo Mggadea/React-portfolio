@@ -1,13 +1,24 @@
 .projects {
-  height: 100vh;
+background-color: #222222;
+padding: 4rem;
 }
-.projects-title {
+.projects__title {
   padding-top: 50px;
+  padding-bottom: 50px;
   color: #08fdd8;
   font-size: 50px;
 }
 
 .projects-img {
-  height: 20px !important;
-  }
+  height: 250px;
   
+  margin-bottom: 4rem;
+}
+
+.projects__description {
+  margin-bottom: 2rem !important;
+}
+
+.projects__button {
+  margin-right: 2rem !important;
+}
