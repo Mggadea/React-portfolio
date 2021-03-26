@@ -25,14 +25,14 @@ const Contact = () => {
         <li className="nav-item">
           <a
             className="nav-link"
-            href="https://www.linkedin.com/in/matias-garay-gadea-b789b519a/"
+            href="https://www.linkedin.com/in/matias-garay-gadea-b789b519a/" target="_blank"
           >
-            <LinkedInIcon style={{ fontSize: 30 }}  />
+            <LinkedInIcon style={{ fontSize: 33 }}  />
           </a>
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" href="https://github.com/Mggadea">
+          <a className="nav-link" href="https://github.com/Mggadea" target="_blank">
             <GitHubIcon  style={{ fontSize: 30 }} />
           </a>
         </li>
