@@ -6,12 +6,13 @@ import "./Experience.css";
 const Experience = () => {
   return (
     <Container maxWidth="lg">
-      <div className="Experience">
-        <h1 className="Experience-title">Experience.</h1>
-        <p>
+      <div className="experience">
+        <h1 className="experience__title">Experience.</h1>
+      
+        <div className="experience__text">
+        <p className="experience__job">
           Fullstack Developer / DevOps at <span className="resalted">Enve</span>{" "}
         </p>
-        <p className="Experience-text">
           <ul>
             <li>
            
@@ -53,7 +54,7 @@ const Experience = () => {
               insights.
             </li>
           </ul>
-        </p>
+        </div>
       </div>
     </Container>
   );

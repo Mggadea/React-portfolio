@@ -19,7 +19,7 @@ const Home = () => {
       </div>
 
       <div>
-        {" "}
+      
         <button className="home__button"> Contact me </button>
       </div>
       <div className="home__social ">

@@ -1,0 +1,37 @@
+.contact {
+  height: 100vh;
+  padding-top: 4rem;
+  text-align: center;
+}
+.contact__title {
+  font-size: 3rem;
+  color: #08fdd8;
+}
+.contact__text{
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+.contact__button {
+    font-size: 22px;
+  margin: 2rem;
+  width: 350px;
+  font-weight: 500;
+  background-color: #111111;
+  color: #08fdd8;
+  
+  padding: 10px 18px;
+  border: 1px solid #08fdd8;
+  box-shadow: 5px 5px 1px #08fdd8;
+}
+.contact__button:hover {
+  text-decoration: none;
+  color: black;
+  background-color: #08fdd8;
+  box-shadow: 10px 10px  black;
+}
+.footer__social{
+  position: relative;
+  bottom: 20px;
+  right: 30px;
+}

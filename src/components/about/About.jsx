@@ -7,8 +7,8 @@ const About = () => {
   return (
     <Container maxWidth="lg">
       <div className="about">
-        <h1 className="about-title">About me.</h1>
-        <p className="about-text">
+        <h1 className="about__title">About me.</h1>
+        <p className="about__text">
           I’m a seasoned fullstack developer based in Buenos Aires AR, with
           great experience in Front-end with React and the DevOps field. I also
           have deep knowledge implementing complex architectures in cloud
