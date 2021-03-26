@@ -22,7 +22,7 @@ const Home = () => {
       
         <button className="home__button"> Contact me </button>
       </div>
-      <div className="home__social ">
+      <ul className="home__social ">
         <li className="nav-item">
           <a
             className="nav-link"
@@ -37,7 +37,7 @@ const Home = () => {
             <GitHubIcon  style={{ fontSize: 30 }} />
           </a>
         </li>
-      </div>
+      </ul>
     </div>
   );
 };

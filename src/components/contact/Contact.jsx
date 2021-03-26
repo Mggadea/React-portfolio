@@ -18,25 +18,25 @@ const Contact = () => {
       <button className="contact__button">
         Send me an Email <EmailIcon />
       </button>
-      <div className="footer__left">
-      Copyright © 2021 Matias Garay Gadea
-      </div>
-      <div className=" ">
-        <li className="">
+
+      <div className="footer__left">Copyright © 2021 Matias Garay Gadea</div>
+
+      <ul className="footer__social ">
+        <li className="nav-item">
           <a
-            className=""
+            className="nav-link"
             href="https://www.linkedin.com/in/matias-garay-gadea-b789b519a/"
           >
             <LinkedInIcon style={{ fontSize: 30 }}  />
           </a>
         </li>
 
-        <li className="">
-          <a className="" href="https://github.com/Mggadea">
-            <GitHubIcon  color="action" />
+        <li className="nav-item">
+          <a className="nav-link" href="https://github.com/Mggadea">
+            <GitHubIcon  style={{ fontSize: 30 }} />
           </a>
         </li>
-      </div>
+      </ul>
     </div>
   );
 };

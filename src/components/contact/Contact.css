@@ -1,9 +1,12 @@
 .contact {
   height: 100vh;
-  padding-top: 4rem;
+  font-size: 4rem;
+  padding-top: 10%;
   text-align: center;
+  position: relative;
 }
 .contact__title {
+  
   font-size: 3rem;
   color: #08fdd8;
 }
@@ -30,8 +33,18 @@
   background-color: #08fdd8;
   box-shadow: 10px 10px  black;
 }
+.footer__left{
+  font-size: 20px;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+ 
+}
+
 .footer__social{
-  position: relative;
+  
+  position: absolute;
   bottom: 20px;
   right: 30px;
 }
